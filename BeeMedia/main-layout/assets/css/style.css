@@ -1245,6 +1245,15 @@ p {
 /* ==========================================================================
    10. CHARTS SECTION
 ========================================================================== */ 
+.chartvalues {
+	display: none;
+	visibility: hidden;
+}
+
+.linechartvalues {
+	display: none;
+	visibility: hidden;
+}
 .charts p{
     margin-bottom: 20px;
 }
