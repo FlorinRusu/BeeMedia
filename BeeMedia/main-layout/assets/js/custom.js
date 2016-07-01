@@ -409,68 +409,38 @@ var isdonut = 0;
 $('.start-charts').waypoint(function(direction){
     if (isdonut == 1){}
         else {
-            var doughnutData = [
-                {
-                    value: 50,
-                    color:"#C0392B",
-                    highlight: "#EA402F",
-                    label: "Beautiful Design"
-                },
-                {
-                    value: 25,
-                    color: "#323A45",
-                    highlight: "#4C5B70",
-                    label: "Responsive Layout"
-                },
-                {
-                    value: 15,
-                    color: "#949FB1",
-                    highlight: "#A8B3C5",
-                    label: "Persuasive Call to Action"
-                },
-                {
-                    value: 5,
-                    color: "#27AE60",
-                    highlight: "#29C36A",
-                    label: "Social Proof"
-                }
-
-            ];
-
-            var doughnut2Data = [
-                {
-                    value: 827,
-                    color:"#C0392B",
-                    highlight: "#EA402F",
-                    label: "Cups of Coffee"
-                },
-                {
-                    value: 1775,
-                    color: "#323A45",
-                    highlight: "#4C5B70",
-                    label: "Code Hours"
-                },
-                {
-                    value: 580,
-                    color: "#2980B9",
-                    highlight: "#2F97DC",
-                    label: "Design Hours"
-                },
-                {
-                    value: 540,
-                    color: "#949FB1",
-                    highlight: "#A8B3C5",
-                    label: "Songs Listened"
-                }
-            ];
-
-            
-            
+	    var charts = [];
+	    $('.chartvalues').each(function (index) {
+		var doughnutValues = [];
+		$(this).find('tbody tr').each(function (ti) {
+			var valuePoint = { }
+			$(this).find('th,td').each(function (i) {
+				if($(this).is('th')) {
+					valuePoint.label = this.innerHTML;
+				} else {
+					switch($(this).attr('valtype')) {
+						case 'value':
+							valuePoint.value = Number(this.innerHTML);
+							break;
+						case 'color':
+							valuePoint.color = this.innerHTML;
+							break;
+						case 'highlight':
+							valuePoint.highlight = this.innerHTML;
+							break;
+					}
+				}
+			});
+		doughnutValues.push(valuePoint);
+		});
+		charts.push(doughnutValues);
+	    });
+                      
             var ctx = document.getElementById("chart-area").getContext("2d");
-            window.myDoughnut = new Chart(ctx).Doughnut(doughnutData, {responsive : false});
+            window.myDoughnut = new Chart(ctx).Doughnut(charts[0], {responsive : false});
 
             var ctx = document.getElementById("chart2-area").getContext("2d");
-            window.myDoughnut = new Chart(ctx).Doughnut(doughnut2Data, {responsive : false});
+            window.myDoughnut = new Chart(ctx).Doughnut(charts[1], {responsive : false});
 
             isdonut = 1;
         }
@@ -484,6 +454,47 @@ var isline = 0;
 $('.start-line').waypoint(function(direction){
     if (isline == 1){}
         else {
+	    var linechart = { labels: [], 
+			      datasets: [],
+			      options: {
+			 	axisY: {
+					labelFonSize: 20,
+					lableFontColor: "#ff0000"
+				},
+				legend: {
+					display: true,
+					labels: {
+						fontColor: 'rgb(255, 99, 132)'
+					}
+				}
+			      }
+			    };
+
+	    $('.linechartvalues').each(function (index) {
+		$(this).find('thead th').each(function (thi) {
+			linechart.labels.push(this.innerHTML);
+		});
+
+		$(this).find('tbody tr').each(function (tri) {
+			var dataset = { };
+			$(this).find('th,td').each(function (tdi) {
+				if($(this).is('th')) {
+					dataset.label = this.innerHTML;
+				} else {
+					switch($(this).attr('valtype')) {
+						case 'data':
+							var values = $.trim(this.innerHTML).split(',');
+							dataset.data = values;
+							break;
+						default:
+							dataset[$(this).attr('valtype')] = this.innerHTML;
+							break;
+					}
+				}
+			});
+			linechart.datasets.push(dataset);			
+		});
+	    });
 
             var lineChartData = {
                 labels : ["January","February","March","April","May","June","July"],
@@ -496,6 +507,7 @@ $('.start-line').waypoint(function(direction){
                         pointStrokeColor : "#fff",
                         pointHighlightFill : "#fff",
                         pointHighlightStroke : "rgba(192,57,43,1)",
+			pointStyle : "",
                         data : [10,20,20,15,25,37,32]
                     },
                     {
@@ -513,11 +525,19 @@ $('.start-line').waypoint(function(direction){
             };
 
             var ctx = document.getElementById("line-canvas").getContext("2d");
-            window.myLine = new Chart(ctx).Line(lineChartData, {responsive: true});
+            window.myLine = new Chart(ctx).Line(linechart, {responsive: true, 
+					legend: {
+						display: true,
+						labels: {
+							fontColor: 'rgb(255, 99, 132)'
+						}
+					}
+	    });
 
             isline = 1;
         }
 });
+
 
 /* =======================================================================
    SIGNUP-DIVIDER ANIMATED POLYGON BACKGROUND
