@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="56533088-a307-47e8-92f6-183732ce770c" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main-layout/assets/images/beeMedia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main-layout/beeMedia.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-layout/BeeMedia.html" afterPath="$PROJECT_DIR$/main-layout/BeeMedia.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" afterPath="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-layout/assets/css/style.css" afterPath="$PROJECT_DIR$/main-layout/assets/css/style.css" />
     </list>
     <ignored path="BeeMedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,14 +27,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BeeMedia.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BeeMedia.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33238637">
-              <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+            <state vertical-scroll-proportion="-2.1272728">
+              <caret line="210" column="36" selection-start-line="210" selection-start-column="36" selection-end-line="210" selection-end-column="36" />
               <folding>
-                <element signature="e#2675#2816#0" expanded="false" />
-                <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -44,12 +43,9 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6727273">
-              <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-              <folding>
-                <marker date="1467468884628" expanded="true" signature="11955:12029" placeholder="{...}" />
-                <marker date="1467468884628" expanded="true" signature="12205:12256" placeholder="{...}" />
-              </folding>
+            <state vertical-scroll-proportion="-2.4363637">
+              <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -64,11 +60,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="yellow.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="yellow.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.709091">
-              <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.6203966">
+              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding />
             </state>
           </provider>
@@ -87,9 +83,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" />
-        <option value="$PROJECT_DIR$/main-layout/assets/css/style.css" />
         <option value="$PROJECT_DIR$/main-layout/BeeMedia.html" />
+        <option value="$PROJECT_DIR$/main-layout/assets/css/style.css" />
+        <option value="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" />
       </list>
     </option>
   </component>
@@ -256,6 +252,7 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/BeeMedia.html</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/assets/css/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -791,7 +788,7 @@
       <updated>1467406712666</updated>
       <workItem from="1467406714060" duration="3226000" />
       <workItem from="1467410241332" duration="141000" />
-      <workItem from="1467439897710" duration="18907000" />
+      <workItem from="1467439897710" duration="21135000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDEA component">
       <created>1467406809192</created>
@@ -865,11 +862,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467469561989</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="poza">
+      <created>1467469614671</created>
+      <option name="number" value="00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1467469614671</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22274000" />
+    <option name="totallyTimeSpent" value="24502000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -881,11 +884,11 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35459942" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35311574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18960468" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18960468" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -918,7 +921,8 @@
     <MESSAGE value="Realizarea culorilor" />
     <MESSAGE value="modif1" />
     <MESSAGE value="modif2&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="modif2&#10;" />
+    <MESSAGE value="poza" />
+    <option name="LAST_COMMIT_MESSAGE" value="poza" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -945,35 +949,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css">
+    <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.709091">
-          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
-          <folding />
+        <state vertical-scroll-proportion="-2.1272728">
+          <caret line="210" column="36" selection-start-line="210" selection-start-column="36" selection-end-line="210" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6727273">
-          <caret line="366" column="0" selection-start-line="366" selection-start-column="0" selection-end-line="366" selection-end-column="0" />
-          <folding>
-            <marker date="1467468884628" expanded="true" signature="11955:12029" placeholder="{...}" />
-            <marker date="1467468884628" expanded="true" signature="12205:12256" placeholder="{...}" />
-          </folding>
+        <state vertical-scroll-proportion="-2.4363637">
+          <caret line="368" column="17" selection-start-line="368" selection-start-column="17" selection-end-line="368" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
+    <entry file="file://$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33238637">
-          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
-          <folding>
-            <element signature="e#2675#2816#0" expanded="false" />
-            <element signature="n#nav#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.6203966">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding />
         </state>
       </provider>
     </entry>
