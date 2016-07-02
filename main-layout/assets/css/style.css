@@ -1036,7 +1036,11 @@ p {
     padding: 0;
 }
 
+/* schemaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
 
+.schema {
+   text-align:center;
+}
 /* ==================================================================================
    09. NEWSLETTER, FAST-REGISTRATION HEADER & SIGNUP DIVIDER SECTIONS
 =================================================================================== */ 
@@ -1532,6 +1536,11 @@ p {
     width: 60px;
     height: 60px;
     padding: 5%;
+}
+
+.team{
+    background-color: gray
+
 }
 
 
