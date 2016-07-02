@@ -55,6 +55,10 @@ body {
 section{
     position: relative;
     overflow: hidden;
+	
+}
+
+.full-page{
 	height: 100vh;
 }
 
@@ -113,7 +117,7 @@ ul {
 }
 
 .dark-bg{
-    background-color: #323a45;
+    background-color: #3a2a28;
 }
 
 .white-bg{
@@ -1034,6 +1038,7 @@ p {
     display: table;
     width: 100%;
     margin: 0;
+
 }
 
 .newsletter .table-row{
