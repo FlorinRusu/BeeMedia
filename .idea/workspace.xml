@@ -4,7 +4,6 @@
     <list default="true" id="56533088-a307-47e8-92f6-183732ce770c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-layout/BeeMedia.html" afterPath="$PROJECT_DIR$/main-layout/BeeMedia.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" afterPath="$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css" />
     </list>
     <ignored path="BeeMedia.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="BeeMedia.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47592068">
-              <caret line="216" column="53" selection-start-line="216" selection-start-column="53" selection-end-line="216" selection-end-column="53" />
+            <state vertical-scroll-proportion="0.33190578">
+              <caret line="213" column="101" selection-start-line="213" selection-start-column="101" selection-end-line="213" selection-end-column="101" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,11 +41,11 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-2.7454545">
-              <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
+            <state vertical-scroll-proportion="-3.9818182">
+              <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
               <folding>
-                <marker date="1467475934806" expanded="true" signature="1879:1927" placeholder="{...}" />
-                <marker date="1467475934806" expanded="true" signature="12185:12234" placeholder="{...}" />
+                <marker date="1467479887843" expanded="true" signature="1879:1927" placeholder="{...}" />
+                <marker date="1467479887843" expanded="true" signature="21361:21363" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -255,6 +254,7 @@
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="UPDATED" />
           <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/BeeMedia.html</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/assets/css/colors/yellow.css</PATH>
           <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/assets/css/style.css</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
@@ -263,8 +263,6 @@
           <option name="mySupportsDeletion" value="false" />
           <option name="myCanBeAbsent" value="false" />
           <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/BeeMedia - Copy.html</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/main-layout/images/second_blog.png</PATH>
         </FILE-GROUP>
         <FILE-GROUP>
           <option name="myUpdateName" value="Deleted" />
@@ -792,7 +790,7 @@
       <updated>1467406712666</updated>
       <workItem from="1467406714060" duration="3226000" />
       <workItem from="1467410241332" duration="141000" />
-      <workItem from="1467439897710" duration="25609000" />
+      <workItem from="1467439897710" duration="27422000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDEA component">
       <created>1467406809192</created>
@@ -878,11 +876,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467471862506</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="poza">
+      <created>1467477274428</created>
+      <option name="number" value="00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1467477274428</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28976000" />
+    <option name="totallyTimeSpent" value="30789000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -894,7 +898,7 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.35311574" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18397626" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -961,11 +965,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.7454545">
-          <caret line="369" column="17" selection-start-line="369" selection-start-column="17" selection-end-line="369" selection-end-column="17" />
+        <state vertical-scroll-proportion="-3.9818182">
+          <caret line="373" column="17" selection-start-line="373" selection-start-column="17" selection-end-line="373" selection-end-column="17" />
           <folding>
-            <marker date="1467475934806" expanded="true" signature="1879:1927" placeholder="{...}" />
-            <marker date="1467475934806" expanded="true" signature="12185:12234" placeholder="{...}" />
+            <marker date="1467479887843" expanded="true" signature="1879:1927" placeholder="{...}" />
+            <marker date="1467479887843" expanded="true" signature="21361:21363" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -980,8 +984,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47592068">
-          <caret line="216" column="53" selection-start-line="216" selection-start-column="53" selection-end-line="216" selection-end-column="53" />
+        <state vertical-scroll-proportion="0.33190578">
+          <caret line="213" column="101" selection-start-line="213" selection-start-column="101" selection-end-line="213" selection-end-column="101" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
