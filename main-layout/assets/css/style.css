@@ -113,7 +113,8 @@ ul {
 /*	 Backgrounds
 /*------------------------------------------*/
 .light-bg{
-	background-color: #fafafa;
+	/*background-color: #fafafa;*/
+	background-color: white;
 }
 
 .dark-bg{
@@ -834,10 +835,11 @@ p {
 /*------------------------------------------*/
 /*   About - Intro Features
 /*------------------------------------------*/
-.container-fluid{
-    background-color: transparent;
-    background: transparent;
-    border-color: transparent;
+.separator {
+    overflow: hidden;
+    position:relative;
+    padding: 0;
+
 }
 .intro-features {
     background-color:black;

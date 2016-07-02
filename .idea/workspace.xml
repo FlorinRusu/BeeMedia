@@ -29,8 +29,8 @@
       <file leaf-file-name="BeeMedia.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6497462">
-              <caret line="284" column="29" selection-start-line="284" selection-start-column="29" selection-end-line="284" selection-end-column="29" />
+            <state vertical-scroll-proportion="0.30456853">
+              <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -39,26 +39,16 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="custom.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main-layout/assets/js/custom.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-10.724138">
-              <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.6">
-              <caret line="838" column="28" selection-start-line="838" selection-start-column="28" selection-end-line="838" selection-end-column="28" />
+            <state vertical-scroll-proportion="-0.4909091">
+              <caret line="827" column="23" selection-start-line="827" selection-start-column="23" selection-end-line="827" selection-end-column="23" />
               <folding>
-                <marker date="1467496887428" expanded="true" signature="1879:1927" placeholder="{...}" />
-                <marker date="1467496887428" expanded="true" signature="21476:21478" placeholder="{...}" />
-                <marker date="1467496887428" expanded="true" signature="29053:29312" placeholder="{...}" />
-                <marker date="1467496887428" expanded="true" signature="29866:29986" placeholder="{...}" />
+                <marker date="1467498236391" expanded="true" signature="1879:1927" placeholder="{...}" />
+                <marker date="1467498236391" expanded="true" signature="21468:21470" placeholder="{...}" />
+                <marker date="1467498236391" expanded="true" signature="29045:29304" placeholder="{...}" />
+                <marker date="1467498236391" expanded="true" signature="29858:29978" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -715,7 +705,7 @@
       <workItem from="1467406714060" duration="3226000" />
       <workItem from="1467410241332" duration="141000" />
       <workItem from="1467439897710" duration="34346000" />
-      <workItem from="1467493007059" duration="4263000" />
+      <workItem from="1467493007059" duration="6173000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDEA component">
       <created>1467406809192</created>
@@ -843,11 +833,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467496783781</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="little fix">
+      <created>1467497302883</created>
+      <option name="number" value="00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1467497302883</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41976000" />
+    <option name="totallyTimeSpent" value="43886000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -901,7 +897,8 @@
     <MESSAGE value="new text" />
     <MESSAGE value="change logo &amp; add description" />
     <MESSAGE value="adding bar &amp; change fagure" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding bar &amp; change fagure" />
+    <MESSAGE value="little fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="little fix" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -936,10 +933,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="112" column="16" selection-start-line="112" selection-start-column="16" selection-end-line="112" selection-end-column="16" />
           <folding>
-            <marker date="1467496887428" expanded="true" signature="1879:1927" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="21476:21478" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="29053:29312" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="29866:29986" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="1879:1927" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="21468:21470" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="29045:29304" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="29858:29978" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -984,19 +981,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.6">
-          <caret line="838" column="28" selection-start-line="838" selection-start-column="28" selection-end-line="838" selection-end-column="28" />
-          <folding>
-            <marker date="1467496887428" expanded="true" signature="1879:1927" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="21476:21478" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="29053:29312" placeholder="{...}" />
-            <marker date="1467496887428" expanded="true" signature="29866:29986" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/assets/js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-10.724138">
@@ -1005,10 +989,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/main-layout/assets/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.4909091">
+          <caret line="827" column="23" selection-start-line="827" selection-start-column="23" selection-end-line="827" selection-end-column="23" />
+          <folding>
+            <marker date="1467498236391" expanded="true" signature="1879:1927" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="21468:21470" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="29045:29304" placeholder="{...}" />
+            <marker date="1467498236391" expanded="true" signature="29858:29978" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6497462">
-          <caret line="284" column="29" selection-start-line="284" selection-start-column="29" selection-end-line="284" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.30456853">
+          <caret line="105" column="59" selection-start-line="105" selection-start-column="59" selection-end-line="105" selection-end-column="59" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
