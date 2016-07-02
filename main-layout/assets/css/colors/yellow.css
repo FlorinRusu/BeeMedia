@@ -35,9 +35,9 @@ a, .text-color {
 }
 
 .navbar-nav>li>a.btn-signup {
-    background: #f1c40f;
+    background: #fec20e;
     color: #ffffff;
-    border-color: #f1c40f;
+    border-color: #fec20e;
 }
 
 .navbar-nav>li>a.btn-signup:hover, .navbar-nav>li>a.btn-signup:focus {
@@ -63,7 +63,7 @@ a, .text-color {
 /*------------------------------------------*/
 .type .hero-section span{
 
-    background-color: #f1c40f;
+    background-color: #fec20e;
 }
 
 /*------------------------------------------*/
