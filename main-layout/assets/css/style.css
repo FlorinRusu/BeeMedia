@@ -55,6 +55,7 @@ body {
 section{
     position: relative;
     overflow: hidden;
+	height: 100vh;
 }
 
 /*------------------------------------------------------------------*/
@@ -528,7 +529,7 @@ p {
 /*   Header Background Parallax Settings
 /*------------------------------------------*/
 .header{
-    background: url("../images/hero-placeholder.jpg") no-repeat center top fixed;
+   /* background: url("../images/hero-placeholder.jpg") no-repeat center top fixed; */
     -webkit-background-size: cover;
     -moz-background-size:cover;
     background-size: cover;   
@@ -553,14 +554,14 @@ p {
     background: white;
     padding-top: 25px;
     padding-bottom: 25px;
-	border-bottom: 2px solid #000;
+	
 }
 
 .navbar-fixed-top.is-scrolling{
-    background: #fff;
-   /*  background: rgba(50,58,69,0.95); */
+   /* background: #fcfcfc TRAopacity:0.2; */
+	background: rgba(252,252,252,0.95); 
     border: 0;
-	border-bottom: 2px solid #000;
+
     padding-top: 5px;
     padding-bottom: 5px;
 }
