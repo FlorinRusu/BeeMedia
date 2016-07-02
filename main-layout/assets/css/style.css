@@ -827,6 +827,7 @@ p {
 /*   About - Intro Features
 /*------------------------------------------*/
 .intro-features {
+    background-color:black;
     text-align: center;
 }
 
