@@ -28,8 +28,8 @@
       <file leaf-file-name="BeeMedia.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.56586826">
-              <caret line="257" column="63" selection-start-line="257" selection-start-column="63" selection-end-line="257" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.25449103">
+              <caret line="290" column="35" selection-start-line="290" selection-start-column="35" selection-end-line="290" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -790,7 +790,7 @@
       <updated>1467406712666</updated>
       <workItem from="1467406714060" duration="3226000" />
       <workItem from="1467410241332" duration="141000" />
-      <workItem from="1467439897710" duration="28800000" />
+      <workItem from="1467439897710" duration="31134000" />
     </task>
     <task id="LOCAL-00001" summary="adding IDEA component">
       <created>1467406809192</created>
@@ -888,11 +888,17 @@
       <option name="project" value="LOCAL" />
       <updated>1467480401203</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="text">
+      <created>1467481844289</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1467481844289</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32167000" />
+    <option name="totallyTimeSpent" value="34501000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -991,8 +997,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/main-layout/BeeMedia.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.56586826">
-          <caret line="257" column="63" selection-start-line="257" selection-start-column="63" selection-end-line="257" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.25449103">
+          <caret line="290" column="35" selection-start-line="290" selection-start-column="35" selection-end-line="290" selection-end-column="35" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#2;n#div#0;n#div#0;n#div#0;n#header#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
