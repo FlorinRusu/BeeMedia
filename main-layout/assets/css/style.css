@@ -549,6 +549,7 @@ p {
 }
 
 .navbar-fixed-top {
+    background: #323a45;
     padding-top: 25px;
     padding-bottom: 25px;
 }
@@ -584,7 +585,7 @@ p {
     text-transform: uppercase;
     font-size: 11px;
     line-height: 15px;
-    color: #ffffff;
+    color: black;
     -webkit-transition: all .5s ease;
     -o-transition: all .5s ease;
     -moz-transition: all .5s ease;
@@ -592,7 +593,7 @@ p {
 }
 
 .navbar-nav>li>a:hover, .navbar-nav>li>a:focus, .navbar-nav>.active>a, .navbar-nav>.active>a:hover, .navbar-nav>.active>a:focus{
-    color: #ffffff;
+
     background-color: transparent;
 }
 
@@ -625,9 +626,9 @@ p {
 }
 
 .navbar-nav>li>a.btn-nav:hover, .navbar-nav>li>a.btn-nav:focus {
-    background: #ffffff;
+    background: gray;
     color: #3e3e3e;
-    border-color: #ffffff;
+    border-color: gray;
 }
 
 /*------------------------------------------*/
