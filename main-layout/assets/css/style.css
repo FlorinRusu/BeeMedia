@@ -834,7 +834,11 @@ p {
 /*------------------------------------------*/
 /*   About - Intro Features
 /*------------------------------------------*/
-
+.container-fluid{
+    background-color: transparent;
+    background: transparent;
+    border-color: transparent;
+}
 .intro-features {
     background-color:black;
     text-align: center;
