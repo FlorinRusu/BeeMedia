@@ -1467,6 +1467,7 @@ p {
     -moz-border-radius: 5%;
     border-radius: 5%;
     opacity:0.85;
+	
 }
 
 .team-img .img-overlay{
@@ -1490,11 +1491,11 @@ p {
 }
 
 .team-img:hover img{
-    -ms-transform: scale(1.5,1.5);
-    -moz-transform: scale(1.5,1.5);
-    -o-transform: scale(1.5,1.5);
-    -webkit-transform: scale(1.5,1.5);
-    transform: scale(1.5,1.5);
+    -ms-transform: scale(1.9,1.9);
+    -moz-transform: scale(1.9,1.9);
+    -o-transform: scale(1.9,1.9);
+    -webkit-transform: scale(1.9,1.9);
+    transform: scale(1.9,1.9);
     -webkit-transition: all .3s;
     -o-transition: all .3s;
     -moz-transition: all .3s;
