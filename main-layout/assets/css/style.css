@@ -127,7 +127,7 @@ ul {
     zoom: 1;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#80000000', endColorstr='#80000000');
     background: transparent;
-    background: rgba(51, 51, 51, 0.5);
+    background: white;
 }
 
 /* set filter as none for IE9+, because IE9+ support RGBa */
@@ -1733,10 +1733,11 @@ h2 {
 #hexGrid {
 
     overflow: hidden;
-    width: 59%;
+    width: 78%;
     margin: 0 auto;
     padding:0.866% 0;
-    font-family: 'monospace', sans-serif;
+    font-family: 'Raleway', sans-serif !important;
+
     font-size: 11px;
 }
 #hexGrid:after {
@@ -1750,7 +1751,8 @@ h2 {
     float: left;
     overflow: hidden;
     visibility: hidden;
-    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+    border-radius: 1em/.5em;
+    outline:0px solid transparent; /* fix for jagged edges in FF on hover transition */
     -webkit-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
         -ms-transform: rotate(-60deg) skewY(30deg) translatez(-1px);
             transform: rotate(-60deg) skewY(30deg) translatez(-1px);
@@ -1758,7 +1760,8 @@ h2 {
 .hex * {
     position: absolute;
     visibility: visible;
-    outline:1px solid transparent; /* fix for jagged edges in FF on hover transition */
+
+    outline :0px solid transparent; /* fix for jagged edges in FF on hover transition */
 }
 .hexIn {
     display:block;
@@ -1768,12 +1771,36 @@ h2 {
     text-align: center;
     color: #fff;
     overflow: hidden;
+    border: 1px;
 	    border-radius: 1em/.5em;
     -webkit-transform: skewY(-30deg) rotate(60deg);
-        -ms-transform: skewY(-30deg) rotate(60deg);
-            transform: skewY(-30deg) rotate(60deg);
+    -ms-transform: skewY(-30deg) rotate(60deg);
+    transform:  skewY(-30deg) rotate(60deg);
 }
 
+.rhex {
+    position: relative;
+    margin: 1em auto;
+    width: 10em; height: 17.32em;
+    border-radius: 1em/.5em;
+    opacity: .25;
+    background: orange;
+    transition: opacity .5s;
+    cursor: pointer;
+}
+.rhex:before, .rhex:after {
+    position: absolute;
+    width: inherit; height: inherit;
+    border-radius: inherit;
+    background: inherit;
+    content: '';
+}
+.rhex:before {
+    transform: rotate(60deg);
+}
+.rhex:after {
+    transform: rotate(-60deg);
+}
 
 /*** HEX CONTENT **********************************************************************/
 .hex img {
@@ -1781,8 +1808,8 @@ h2 {
     right: -100%;
     width: auto;
     height: 100%;
-
     margin: 0 auto;
+
 }
 
 .hex h1, .hex p {
@@ -1790,7 +1817,7 @@ h2 {
     left:-1%; /* prevent line on the right where background doesn't cover image */
     padding: 5%;
     box-sizing:border-box;
-    background-color: rgba(3, 169, 244, 0.65);;
+    background-color: #f1c40f;
     font-weight: 300;
     -webkit-transition:  -webkit-transform .2s ease-out, opacity .3s ease-out;
             transition:          transform .2s ease-out, opacity .3s ease-out;
@@ -1800,6 +1827,7 @@ h2 {
     padding-top:50%;
     font-size: 1.5em;
     z-index: 1;
+
     -webkit-transform:translateY(-100%) translatez(-1px);
         -ms-transform:translateY(-100%) translatez(-1px);
             transform:translateY(-100%) translatez(-1px);
@@ -1855,6 +1883,7 @@ h2 {
     .hex:nth-child(11n+4),
 	.hex:nth-child(11n+5)
      {
+
 		margin-bottom: -3.32%;
         -webkit-transform: translateX(54%) rotate(-60deg) skewY(30deg);
             -ms-transform: translateX(54%) rotate(-60deg) skewY(30deg);
