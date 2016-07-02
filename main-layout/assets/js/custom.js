@@ -28,7 +28,7 @@ function showRegisterForm(){
             $('.register-footer').fadeIn('fast');
         });
         $('.modal-title').html('Create an Account');
-        $('.modal-subtitle').html('Start being a expert in media literacy');
+        $('.modal-subtitle').html('Start being an expert in media literacy');
     });
     $('.error').removeClass('alert alert-danger').html('');
 }
