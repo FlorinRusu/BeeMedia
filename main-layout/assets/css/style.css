@@ -941,6 +941,7 @@ p {
 ========================================================================== */ 
 .features-text h4 {
 	font-size: 15px;
+	line-height: 15px; 
 }	
 .tab-features .features-title{
     padding-top: 120px;
