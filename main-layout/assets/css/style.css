@@ -939,6 +939,9 @@ p {
 /* ==========================================================================
    08. FEATURES TAB
 ========================================================================== */ 
+.features-text h4 {
+	font-size: 15px;
+}	
 .tab-features .features-title{
     padding-top: 120px;
     text-align: center;
