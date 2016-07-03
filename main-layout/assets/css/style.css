@@ -244,6 +244,7 @@ blockquote img {
 /*------------------------------------------*/
 .wrapper-lg{
     padding: 120px 0;
+    z-index: 2;
 }
 
 .wrapper-md{
@@ -835,10 +836,22 @@ p {
 /*------------------------------------------*/
 /*   About - Intro Features
 /*------------------------------------------*/
+
+#on_back {
+	
+	z-index: 2;
+}
+
+.separator-img-sp {
+  	width: 50%;
+        height: 5px;
+}
+
 .separator {
-    overflow: hidden;
-    position:relative;
-    padding: 0;
+    overflow: visible;
+    position: relative;
+    padding-bottom: 75px;
+    z-index: 1;
 
 }
 .intro-features {
