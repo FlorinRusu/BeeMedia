@@ -138,7 +138,7 @@ ul {
 
 /* set filter as none for IE9+, because IE9+ support RGBa */
 :root .overlay {
-    filter: none\0/IE9;
+    filter: none;
 }
 
 /*------------------------------------------*/
@@ -212,6 +212,10 @@ ul {
 /*------------------------------------------*/
 /*	 Blockquote
 /*------------------------------------------*/
+.diagram{
+        width: 75%;
+    height: 75%;
+}
 blockquote {
     border: 0;
     padding: 0 20px;
@@ -940,7 +944,7 @@ p {
    08. FEATURES TAB
 ========================================================================== */ 
 .features-text h4 {
-	font-size: 15px;
+	font-size: 19px;
 	line-height: 15px; 
 }	
 .tab-features .features-title{
